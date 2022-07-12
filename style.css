@@ -1,0 +1,110 @@
+.left{
+    display:inline-block;
+    /* border: 2px solid green; */
+    left: 20px;
+    top:10px;
+    position: absolute;
+  
+}
+.left img{
+    /* background-image :url("images.png"); */
+    width:56px;
+    filter: invert(100%);
+   
+  }
+  
+  .left div{
+          line-height: 16px;
+    font-size: 17px;
+    text-align: center;
+}
+.mid{
+    display:block;
+    /* border: 2px solid blue; */
+    width: 56% ;
+    margin: 2px auto;
+    
+    
+  
+}
+
+.right{
+    display:inline-block;
+    /* border: 2px solid red; */
+    right: 34px;
+    top: 15px;
+  position:absolute
+}
+
+.navbar {
+    display: inline-block;
+    
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+   
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 13px;
+}
+.navbar li a:hover,
+.navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 1px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    /* border: 2px solid grey; */
+    border-radius: 10 px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(209, 186, 143);
+}
+
+.container{
+    border: 2px solid white;
+    margin: 156px 89px;
+    padding: 75px;
+width: 25%;
+border-radius: 12px;
+
+}
+
+.container h3{
+    
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 23%;
+    margin: 12px auto;
+
+}
+
+.form-group input{
+    font-family: 'Baloo Bhai', cursive;
+  
+    display: block;
+    /* width: 10px 78px; */
+    width: 305px;
+    padding: 1px;
+    border:2px solid black;
+    margin: 11px auto;
+    text-align: center;
+    border-radius: 8px;
+
+}
